@@ -27,8 +27,8 @@ noButton.addEventListener("mouseover", function() {
     const newX = Math.random() * (window.innerWidth - this.clientWidth);
 
     // Restrict the Y position to the bottom 30% of the screen
-    const lowerBoundY = window.innerHeight * 1; // Starting point of the bottom 30%
-    const newY = lowerBoundY + Math.random() * (window.innerHeight * 0.2 - this.clientHeight);
+    const lowerBoundY = window.innerHeight * 2; // Starting point of the bottom 30%
+    const newY = lowerBoundY + Math.random() * (window.innerHeight * 0.4 - this.clientHeight);
 
     this.style.position = 'absolute';
     this.style.left = newX + 'px';
